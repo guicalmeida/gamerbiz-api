@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_caixa_de_textos",
+  "info": {
+    "name": "caixaDeTexto",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

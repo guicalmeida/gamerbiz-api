@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_redes_sociais",
+  "info": {
+    "name": "redesSociais",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "rede": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "icone": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

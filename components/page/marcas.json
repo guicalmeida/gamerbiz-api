@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_marcas",
+  "info": {
+    "name": "Marcas",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Servico": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.servico",
+      "max": 4
+    },
+    "tituloClientes": {
+      "type": "string",
+      "required": true
+    },
+    "clientes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.clientes"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "titulo": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_headers",
+  "info": {
+    "name": "Header",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "imagemDeFundo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "descricao": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

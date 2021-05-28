@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_times",
+  "info": {
+    "name": "Times",
+    "icon": "tshirt"
+  },
+  "options": {},
+  "attributes": {
+    "caixaDeTexto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.caixa-de-texto",
+      "max": 4
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.botao"
+    },
+    "camiseta": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_clientes",
+  "info": {
+    "name": "clientes",
+    "icon": "chart-line"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

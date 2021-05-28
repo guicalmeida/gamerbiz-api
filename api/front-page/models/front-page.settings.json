@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "front_pages",
+  "info": {
+    "name": "Front Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "Sobre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.sobre"
+    },
+    "Marcas": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.marcas"
+    },
+    "Times": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.times"
+    },
+    "produtorDeConteudo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.produtor-de-conteudo"
+    },
+    "Atleta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.atleta"
+    },
+    "Cases": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.cases"
+    },
+    "Contato": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contato"
+    }
+  }
+}

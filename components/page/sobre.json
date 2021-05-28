@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_sobres",
+  "info": {
+    "name": "Sobre",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.botao"
+    },
+    "escudo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "descricao": {
+      "type": "richtext",
+      "required": true
+    },
+    "titulo": {
+      "type": "richtext"
+    }
+  }
+}

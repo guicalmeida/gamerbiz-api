@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_atletas",
+  "info": {
+    "name": "Atletas",
+    "icon": "mouse"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "eSport": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "foto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

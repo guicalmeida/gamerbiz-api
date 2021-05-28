@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_cases",
+  "info": {
+    "name": "case",
+    "icon": "clipboard-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "capa": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "texto": {
+      "type": "richtext"
+    },
+    "Galeria": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}

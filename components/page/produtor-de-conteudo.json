@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_produtor_de_conteudos",
+  "info": {
+    "name": "produtorDeConteudo",
+    "icon": "bolt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "caixaDeTexto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.caixa-de-texto",
+      "max": 4
+    },
+    "botao": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.botao"
+    },
+    "titulo": {
+      "type": "richtext"
+    }
+  }
+}

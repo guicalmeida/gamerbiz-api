@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_atletas",
+  "collectionName": "components_page_jogadors",
   "info": {
-    "name": "Atletas",
-    "icon": "mouse"
+    "name": "Jogador",
+    "icon": "football-ball"
   },
   "options": {},
   "attributes": {
@@ -19,9 +19,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false,

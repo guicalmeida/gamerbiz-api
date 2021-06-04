@@ -7,16 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "capa": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "texto": {
       "type": "richtext"
     },

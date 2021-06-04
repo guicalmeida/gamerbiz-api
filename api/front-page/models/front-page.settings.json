@@ -12,22 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Header": {
+    "header": {
       "type": "component",
       "repeatable": false,
       "component": "page.header"
     },
-    "Sobre": {
+    "sobre": {
       "type": "component",
       "repeatable": false,
       "component": "page.sobre"
     },
-    "Marcas": {
+    "marcas": {
       "type": "component",
       "repeatable": false,
       "component": "page.marcas"
     },
-    "Times": {
+    "times": {
       "type": "component",
       "repeatable": false,
       "component": "page.times"
@@ -37,20 +37,20 @@
       "repeatable": false,
       "component": "page.produtor-de-conteudo"
     },
-    "Atleta": {
+    "atleta": {
       "type": "component",
       "repeatable": false,
       "component": "page.atleta"
     },
-    "Cases": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.cases"
-    },
-    "Contato": {
+    "contato": {
       "type": "component",
       "repeatable": false,
       "component": "page.contato"
+    },
+    "trabalhos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.trabalhoss"
     }
   }
 }

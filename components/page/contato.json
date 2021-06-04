@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_contatoes",
   "info": {
-    "name": "Contato",
-    "icon": "envelope"
+    "name": "contato",
+    "icon": "envelope",
+    "description": ""
   },
   "options": {},
   "attributes": {

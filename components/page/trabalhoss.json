@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_trabalhosses",
+  "info": {
+    "name": "Trabalhoss",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "richtext"
+    },
+    "cases": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.case"
+    },
+    "ativar": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
